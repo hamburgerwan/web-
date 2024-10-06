@@ -1,0 +1,178 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    background-image: url('images/华东交通大学北区校门.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#header {
+    background: linear-gradient(90deg, #333, #555);
+    color: rgb(250, 251, 252);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#logo img {
+    height: 40px;
+}
+
+#nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#nav ul li {
+    margin-right: 20px;
+}
+
+#nav ul li a {
+    color: rgb(253, 252, 252);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 10px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+#nav ul li a:hover {
+    color: #f90408;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+#userInfo img {
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#main {
+    display: flex;
+    margin: 20px;
+}
+
+#leftSide, #rightSide {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+#rightSide {
+    margin-right: 0;
+}
+
+#footer {
+    background: linear-gradient(90deg, #333, #555);
+    color: rgb(247, 246, 247);
+    text-align: center;
+    padding: 15px 20px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #fc0404;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table td a {
+    color: rgb(71, 8, 245);
+}
+
+table {
+    background-color: transparent;
+}
+
+table th {
+    background-color: transparent;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+#leftSide::after {
+    content: "";
+    position: absolute;
+    right: -10px;
+    top: 20px;
+    bottom: 20px;
+    width: 1px;
+    background-color: transparent;
+}
+
+#leftSide, #rightSide {
+    transition: transform 0.2s ease;
+}
+
+#leftSide:hover, #rightSide:hover {
+    transform: scale(1.02);
+}
+
+img {
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f4f4f4;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #aaa;
+}
+
+#leftSide button {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 14px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#leftSide button:hover {
+    background-color: #0056b3;
+    color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#leftSide button:active {
+    transform: translateY(1px);
+}

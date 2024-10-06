@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="图书借阅界面.css">
+    <title>图书借阅页面</title>
+</head>
+
+<body>
+    <!-- 上部：包含导航菜单 -->
+    <div id="header">
+        <div id="logo">
+            <!-- 这里放置logo图片或文字标识 -->
+            <img src="images\图书馆logo.jpg" alt="图书馆logo">
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">图书分类</a></li>
+                <li><a href="#">借阅记录</a></li>
+                <li><a href="#">我的收藏</a></li>
+            </ul>
+        </div>
+        <div id="userInfo">
+            <img src="images\图书馆头像.jpg" alt="用户头像">
+            <span>王瀚博</span>
+        </div>
+    </div>
+
+    <!-- 中间：图书借阅相关内容展示 -->
+    <div id="main">
+        <div id="leftSide">
+            <!-- 假设这里放置搜索框和热门图书推荐等 -->
+            <input type="text" placeholder="搜索图书">
+            <h3>热门图书推荐</h3>
+            <table>
+                <tr>
+                    <td><button onclick="location.href='#'">《百年孤独》</button></td>
+                    <td><img src="images\百年孤独.jpg" alt="百年孤独" style="width: 150px;height: 150px;"></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td><button onclick="location.href='#'">《平凡的世界》</button></td>
+                    <td><img src="images\平凡的世界.jpg" alt="平凡的世界" style="width:150px;height:150px;"></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td><button onclick="location.href='#'">《人类简史》</button></td>
+                    <td><img src="images\人类简史.jpg" alt="人类简史" style="width:150px;height:150px;"></td>
+                </tr>
+            </table>
+        </div>
+        <div id="leftSide">
+            <!-- 这里可以展示当前借阅的图书信息等 -->
+            <h3>当前借阅图书</h3>
+            <table>
+                <tr>
+                    <td><button onclick="location.href='#'">《Java从入门到精通》</button></td>
+                    <td><img src="images/Java从入门到精通.jpg" alt="Java从入门到精通" style="width:150px;height:150px;"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    <div id="footer">
+        <p>联系我们：邮箱：2282703739@qq.com 电话：1587xxx1583</p>
+        <p style="text-align: center; font-size: 14px; color: #888;">版权所有◎2024 - 10 - 6 by 20230222王瀚博</p>
+    </div>
+</body>
+
+</html>

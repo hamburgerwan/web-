@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF - 8">
+  <title>图书信息管理</title>
+  <link rel="stylesheet" href="用户界面.css">
+</head>
+
+<body>
+  <div class="tuichu-link">
+    <a href="登录界面1.html">退出登录</a>
+  </div>
+  <h1>图书信息管理</h1>
+  <div class="search-container">
+  <input type="text" placeholder="搜索图书"></div>
+  <table border="1">
+    <tr>
+      <th>书名</th>
+      <th>作者</th>
+      <th>出版社</th>
+      <th>库存数量</th>
+      <th>操作</th>
+    </tr>
+    
+    <tr>
+      <td>web课程设计</td>
+      <td>作者1</td>
+      <td>出版社1</td>
+      <td>5</td>
+      <td>
+        <button onclick="editBook('1')">编辑</button>
+        <button onclick="deleteBook('1')">删除</button>
+      </td>
+    </tr>
+  </table>
+  <div class="search-container">
+  <button onclick="addBook()">添加新书</button>
+  </div>
+  <p style="text-align: center; font-size: 14px; color: #888;">版权所有◎2024 - 10 - 6 by 20230222王瀚博</p>
+</body>
+
+</html>
